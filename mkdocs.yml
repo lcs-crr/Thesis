@@ -1,0 +1,51 @@
+site_name: PhD Thesis Repository
+site_url: https://lcs-crr.github.io/Thesis/
+site_description: Code repository for the PhD thesis on unsupervised multivariate time-series anomaly detection.
+site_author: Lucas Correia
+repo_url: https://github.com/lcs-crr/Thesis
+repo_name: lcs-crr/Thesis
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      primary: green
+      accent: yellow
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: yellow
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: yellow
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  # features:
+  #   - navigation.sections
+  #   - navigation.top
+  #   - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+
+nav:
+  - Home: index.md
+  - Getting Started: getting_started.md
+  - Reproducing Results:
+    - Chapter 4: reproducing_results/chapter4.md
+    - Chapter 5: reproducing_results/chapter5.md
+    - Chapter 6: reproducing_results/chapter6.md
+    - Chapter 7: reproducing_results/chapter7.md
