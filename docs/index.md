@@ -1,4 +1,4 @@
-![repo_cover](assets/background_repo.svg)
+![repo_cover](assets/test.svg)
 
 # PhD Thesis Repository
 
