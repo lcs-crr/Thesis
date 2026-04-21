@@ -22,6 +22,9 @@ dependencies = [
     "asammdf>=8.1.2",
 ]
 
+[tool.uv]
+python-downloads = "automatic"
+
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["utilities*"]
