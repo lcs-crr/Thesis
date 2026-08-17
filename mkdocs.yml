@@ -1,9 +1,9 @@
 site_name: PhD Thesis Repository
-site_url: https://lcs-crr.github.io/Thesis/
+site_url: https://lcs_crr.codeberg.page/Thesis/
 site_description: Code repository for the PhD thesis on unsupervised multivariate time-series anomaly detection.
 site_author: Lucas Correia
-repo_url: https://github.com/lcs-crr/Thesis
-repo_name: lcs-crr/Thesis
+repo_url: https://codeberg.org/lcs_crr/Thesis
+repo_name: lcs_crr/Thesis
 
 theme:
   name: material
