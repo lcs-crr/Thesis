@@ -35,7 +35,7 @@ exclude = [".venv", "unsupervised_anomaly_detection/path/tsadis", "unsupervised_
 [dependency-groups]
 dev = [
     "deptry>=0.25.1",
-    "mkdocs-material>=9.7.6",
+    "zensical==0.0.55",
     "prek>=0.3.8",
     "ruff>=0.15.8",
 ]
