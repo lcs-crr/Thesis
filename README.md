@@ -15,4 +15,4 @@ The documentation corresponding to this repository can be read [here](https://lc
 A permanent link to the dissertation and propositions can be found [here](https://hdl.handle.net/1887/4309435).
 
 ## Defence
-A recording of the lay talk and the defence itself can be found [here](https://youtu.be/b24m_yDxaeM?si=3DYNBlQkpmjvMqFZ)
+A recording of the lay talk and the defence itself can be found [here](https://youtu.be/b24m_yDxaeM?si=3DYNBlQkpmjvMqFZ).
