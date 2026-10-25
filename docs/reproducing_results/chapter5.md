@@ -8,7 +8,8 @@ This chapter uses two different datasets: the PATH dataset and a proprietary rea
 
 ### 1. Parsing
 The PATH dataset is hosted on [Zenodo](https://zenodo.org/records/13255120) and mirrored on [HuggingFace](https://huggingface.co/datasets/lcs-crr/PATH), which offers faster downloads.
-Once downloaded, unzip either or both `0_simulation` and `1_postsim` folders to `data/path`.
+From Zenodo, unzip either or both `0_simulation` and `1_postsim` folders to `data/path`.
+From Hugging Face, follow the Usage section of the dataset card, with `data/path` as the download folder.
 
 If you only downloaded `0_simulation`, you need to parse it first using the `path/0_postsim.py` script.
 The output will be identical to the contents of the `1_postsim` folder.
