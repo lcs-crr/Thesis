@@ -2,8 +2,9 @@ This section presents how the results presented in Chapter 6 can be reproduced.
 The corresponding scripts are all located in the `active_learning` folder.
 
 ### 1. Parsing
-First, download the PATH dataset, which is hosted on Zenodo and can be downloaded [here](https://zenodo.org/records/13255120).
-Once downloaded, unzip either or both `0_simulation` and `1_postsim` folders to `data/path`.
+First, download the PATH dataset. It is hosted on [Zenodo](https://zenodo.org/records/13255120) and mirrored on [Hugging Face](https://huggingface.co/datasets/lcs-crr/PATH), which offers faster downloads.
+From Zenodo, unzip either or both `0_simulation` and `1_postsim` folders to `data/path`.
+From Hugging Face, follow the [Usage](https://huggingface.co/datasets/lcs-crr/PATH#usage) section of the dataset card, with `data/path` as the download folder.
 
 If you only downloaded `0_simulation`, you need to parse it first using the `0_postsim.py` script.
 The output will be identical to the contents of the `1_postsim` folder.
